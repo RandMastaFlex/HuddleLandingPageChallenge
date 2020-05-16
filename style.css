@@ -94,6 +94,27 @@ h1, h2, h3, h4, h5, h6{
     padding: 1em 1em 0em 1em;
 }
 
+.getStartedFreeSection{
+    width:90vw;
+    margin: 2em auto 2em auto;
+    text-align: center;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+    padding: 2em 0 2em 0;
+    transform: translateY(50%);
+    background-color:white;
+}
+.footer{
+    background-color: hsl(192, 100%, 9%);
+    color:white;
+    padding-top: 5em;
+}
+
+.footer img, p{
+    display:inline-block;
+    margin-top:1em;
+}
+
 @media only screen and (min-width: 800px){
     .landingContent{
         flex-direction: row;
@@ -110,5 +131,7 @@ h1, h2, h3, h4, h5, h6{
     .section img{
         width: 40%;
     }
+    
+    
 
 }
